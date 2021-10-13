@@ -1,0 +1,100 @@
+.About-Header {
+    height : 350px;
+    background-image: url('../../../../Assets/Images/banner.jpg');
+    background-position: 50% 35%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--facebook);
+    text-align: left;
+    font-size: 40px;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+     -moz-user-select: none; /* Old versions of Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
+          user-select: none; /* Non-prefixed version, currently
+                                supported by Chrome, Edge, Opera and Firefox */
+}
+.aboutHeaderText{
+    color: var(--primary);
+    font-weight: 900;
+}
+.bm-wrap {
+    background-color: var(--primary);
+    height : 175px;
+    width : 40px;
+    clip-path: polygon(0 0, 100% 0, 100% 93%, 0% 100%);
+    /* https://bennettfeely.com/clippy/ */
+}
+.router {
+    color: var(--primary);
+    font-weight: 600;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+     -moz-user-select: none; /* Old versions of Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
+          user-select: none; /* Non-prefixed version, currently
+                                supported by Chrome, Edge, Opera and Firefox */
+}
+.card-item {
+    border-top : 3px solid var(--primary)
+}
+.back {
+    cursor: pointer;
+    text-decoration: underline 2px;
+}
+.text-subheader {
+    line-height: 25px;
+}
+.card-wrapper {
+    width: 85%;
+    margin: 0 auto;
+    /* height: 200px;
+    background-color: var(--primary); */
+}
+.card-item-img{
+    height : 250px;
+    object-fit: cover;
+}
+.text-card-header{
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 22px;
+}
+.text-card-content {
+    background-color: var(--muted-pr);
+    /* color: var(--primary); */
+    font-size: 14px;
+    line-height: 25px;
+    clip-path: polygon(0 0, 100% 0, 100% 93%, 0% 100%);
+}
+.learnMore {
+    color: var(--primary);
+    font-weight: 800;
+    text-decoration: underline 2px;
+    padding-right: 30px !important;
+    clip-path: polygon(0% 0%, 95% 0%, 100% 50%, 95% 100%, 0% 100%);
+    cursor: pointer;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+     -moz-user-select: none; /* Old versions of Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
+          user-select: none; /* Non-prefixed version, currently
+                                supported by Chrome, Edge, Opera and Firefox */
+}
+@media only screen and (max-width: 768px) {
+    .About-Header{
+        text-align: center;
+        font-size: 5vw;
+    }
+} 
+@media only screen and (max-width: 992px) {
+    .card-wrapper{
+        width: 100%;
+    }
+    .text-card-content{
+        clip-path: polygon(0% 0%, 100% 0%, 100% 0%, 100% 100%, 0% 100%);
+    }
+}
